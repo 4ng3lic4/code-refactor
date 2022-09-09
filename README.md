@@ -24,5 +24,5 @@ THEN I find a concise, descriptive title
 ## Mock-Up
 The following image demonstrates the web application's appearance and functionality:
 
-![The Mock-Up page features a big image on the top, blue background blocks, white text, and the navigation is on the top.](assets/images/01-html-css-git-homework-demo.png)
+![The Mock-Up page features a big image on the top, blue background blocks, white text, and the navigation is on the top.](./assets/01-html-css-git-homework-demo.png/)
 
