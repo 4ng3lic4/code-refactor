@@ -26,3 +26,7 @@ The following image demonstrates the web application's appearance and functional
 
 ![The Mock-Up page features a big image on the top, blue background blocks, white text, and the navigation is on the top.](./assets/01-html-css-git-homework-demo.png/)
 
+## Finished website
+![The finished product shows all links working properly and the layout matches the request by the client](https://4ng3lic4.github.io/code-refactor/)
+
+
