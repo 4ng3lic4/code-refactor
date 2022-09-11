@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-/*Class changed to HTML Element selector */
+/*Class changed to HTML header Element selector */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -38,7 +38,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*This selector provide style for the body, links and paragraphs*/
 body {
     background-color: #d9dcd6;
 }
@@ -51,7 +51,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*Styling for the marketing images with a background*/
 .hero {
     height: 800px;
     width: 100%;
@@ -70,13 +70,70 @@ p {
     float: right;
     margin-left: 25px;
 }
-
-.content {
+/* correction from div to HTML semantic tag main*/
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Next style to follow order in HTML*/
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*Style for second section they are all classes and not id*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Next style following the HTML section*/
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.social-media-marketing img {
+    max-height: 200px;
+}
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/*Styling for the HTML tag "aside" */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -136,57 +193,6 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.social-media-marketing img {
-    max-height: 200px;
-}
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 /*Class changed to HTML Element selector */
 footer {
     padding: 30px;
@@ -194,9 +200,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-
-
-.footer h2 {
+/*Styling the HTML tag from class to footer*/
+footer h2 {
     font-size: 20px;
 }
